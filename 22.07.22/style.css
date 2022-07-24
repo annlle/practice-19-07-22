@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(223, 222, 222);
+}
+
+.nav-list{
+margin: 0;
+padding: 0;
+font-size:0;
+}
+
+.list-item{
+list-style-type: none;
+display: inline-block;
+position: relative;
+padding: 1em;
+background-color: rgb(243, 93, 39);
+padding: 20px;
+margin-top:17px;
+}
+
+.link{
+background-color: rgb(243, 93, 39);
+color:white;
+text-decoration: none;
+font-size:20px;
+width: 100%;
+}
+
+.sub-nav-list{
+position: absolute;
+top:45px;
+left:-30px;
+display: block;
+}
+
+.sub-list-item{
+display: none;
+list-style-type: none;
+top:0;
+background-color: rgb(243, 93, 39);
+padding: 20px;
+}
+
+.list-item:hover .sub-list-item{
+    display: block;
+}
+
+.sub-list-item:hover .sub-sub-list-item{
+    display: block;
+}
+
+.sub-sub-nav-list{
+position: absolute;
+top:130px;
+left:120px;
+display: block;
+}
+
+.sub-sub-list-item{
+display: none;
+list-style-type: none;
+top:0;
+background-color: rgb(243, 93, 39);
+padding: 20px;
+}
+
+.sub-sub-list-item:hover .sub-sub-sub-list-item{
+    display: block;
+}
+
+.sub-sub-sub-nav-list{
+position: absolute;
+top:130px;
+left:120px;
+display: block;
+width: 145px;
+}
+
+.sub-sub-sub-list-item{
+display: none;
+list-style-type: none;
+top:0;
+background-color: rgb(243, 93, 39);
+padding: 20px;
+}
+
+.other-color{
+background-color: rgb(141, 52, 20); 
+}
+
+#widest{
+    width:57%;
+}
