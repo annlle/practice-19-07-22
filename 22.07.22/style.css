@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(223, 222, 222);
+background-color: rgb(223, 222, 222);
 }
 
 .nav-list{
 margin: 0;
 padding: 0;
 font-size:0;
+white-space: nowrap;
 }
 
 .list-item{
@@ -19,7 +20,6 @@ margin-top:17px;
 }
 
 .link{
-background-color: rgb(243, 93, 39);
 color:white;
 text-decoration: none;
 font-size:20px;
@@ -28,7 +28,7 @@ width: 100%;
 
 .sub-nav-list{
 position: absolute;
-top:45px;
+top:50px;
 left:-30px;
 display: block;
 }
@@ -39,6 +39,10 @@ list-style-type: none;
 top:0;
 background-color: rgb(243, 93, 39);
 padding: 20px;
+}
+
+li:hover{
+background-color: rgb(141, 52, 20);
 }
 
 .list-item:hover .sub-list-item{
@@ -84,10 +88,6 @@ background-color: rgb(243, 93, 39);
 padding: 20px;
 }
 
-.other-color{
-background-color: rgb(141, 52, 20); 
-}
-
 #widest{
-    width:57%;
+padding-right:54vw;
 }
