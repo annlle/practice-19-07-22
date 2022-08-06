@@ -28,9 +28,10 @@ width: 100%;
 
 .sub-nav-list{
 position: absolute;
-top:50px;
-left:-30px;
+top:63px;
+left:-40px;
 display: block;
+width:149.1px;
 }
 
 .sub-list-item{
@@ -55,8 +56,8 @@ background-color: rgb(141, 52, 20);
 
 .sub-sub-nav-list{
 position: absolute;
-top:130px;
-left:120px;
+top:126px;
+left:148px;
 display: block;
 }
 
@@ -74,8 +75,8 @@ padding: 20px;
 
 .sub-sub-sub-nav-list{
 position: absolute;
-top:130px;
-left:120px;
+top:126px;
+left:138px;
 display: block;
 width: 145px;
 }
